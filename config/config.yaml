@@ -240,13 +240,13 @@ notification:
       webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: "${DINGTALK_FIN_WEBHOOK}"                # 钉钉机器人 webhook URL
+      webhook_url: "__DINGTALK_FIN_WEBHOOK__"                # 钉钉机器人 webhook URL
       sections:
         ai_tech:
-          webhook_url: "${DINGTALK_AI_WEBHOOK}"
+          webhook_url: "__DINGTALK_AI_WEBHOOK__"
 
         finance_invest:
-          webhook_url: "${DINGTALK_FIN_WEBHOOK}"
+          webhook_url: "__DINGTALK_FIN_WEBHOOK__"
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
