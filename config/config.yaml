@@ -218,18 +218,6 @@ display:
 # • 邮箱已支持多收件人（逗号分隔）
 # ===============================================================
 notification:
-  generic:
-    enabled: true
-
-    sections:
-      ai_tech:
-        webhook_url: "${DINGTALK_AI_WEBHOOK}"
-        template: default
-
-      finance_invest:
-        webhook_url: "${DINGTALK_FIN_WEBHOOK}"
-        template: default
-
   enabled: true                       # 是否启用通知功能
 
   # 🕐 推送时间窗口控制（可选功能）
@@ -253,6 +241,12 @@ notification:
 
     dingtalk:
       webhook_url: ""                 # 钉钉机器人 webhook URL
+      sections:
+        ai_tech:
+          webhook_url: "${DINGTALK_AI_WEBHOOK}"
+
+        finance_invest:
+          webhook_url: "${DINGTALK_FIN_WEBHOOK}"
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
