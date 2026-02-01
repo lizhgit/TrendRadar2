@@ -142,6 +142,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           DINGTALK_WEBHOOK_URL: ${{ secrets.DINGTALK_WEBHOOK_URL }}
+          DINGTALK_AI_WEBHOOK: ${{ secrets.DINGTALK_AI_WEBHOOK }}
+          DINGTALK_FIN_WEBHOOK: ${{ secrets.DINGTALK_FIN_WEBHOOK }}
           WEWORK_WEBHOOK_URL: ${{ secrets.WEWORK_WEBHOOK_URL }}
           WEWORK_MSG_TYPE: ${{ secrets.WEWORK_MSG_TYPE }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
