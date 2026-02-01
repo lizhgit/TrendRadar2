@@ -218,6 +218,18 @@ display:
 # • 邮箱已支持多收件人（逗号分隔）
 # ===============================================================
 notification:
+  generic:
+    enabled: true
+
+    sections:
+      AI:
+        webhook_url: https://oapi.dingtalk.com/robot/send?access_token=058a8038c0b40a49ce116f647f63cdc17743324bd7f75f4f1237778edec243a3
+        template: default
+
+      finance_invest:
+        webhook_url: https://oapi.dingtalk.com/robot/send?access_token=3451efdfe2db6d27f195b2625cf3b3392a5e182ff45e3b80f6436fc8975c9ae2
+        template: default
+
   enabled: true                       # 是否启用通知功能
 
   # 🕐 推送时间窗口控制（可选功能）
